@@ -8,3 +8,6 @@ class BookDetail extends Component{
     );
   }
 }
+function mapStateToProps(state){
+
+}
