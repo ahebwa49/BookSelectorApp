@@ -25,3 +25,4 @@ function mapStateToProps(state){
     books: state.books
   };
 }
+export default connect(mapStateToProps)(BookList);
