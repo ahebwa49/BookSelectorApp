@@ -26,4 +26,7 @@ function mapStateToProps(state){
     books: state.books
   };
 }
+function mapDispatchToProps(dispatch){
+  
+}
 export default connect(mapStateToProps)(BookList);
