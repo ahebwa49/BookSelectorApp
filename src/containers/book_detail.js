@@ -3,6 +3,9 @@ import {connect} from 'react-redux';
 
 class BookDetail extends Component{
   render(){
+    if(!this.props.book){
+      return <div>Please select book to get started</div>
+    }
     return(
         <div>Details for:</div>
         Title: {this.props.book.title}
