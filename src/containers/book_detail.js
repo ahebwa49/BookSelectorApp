@@ -4,12 +4,12 @@ import {connect} from 'react-redux';
 class BookDetail extends Component{
   render(){
     if(!this.props.book){
-      return <div>Please select book to get started</div>
+      return <div>Please select book to get started</div>;
     }
     return(
         <div>
         <h3>Details for:</h3>
-          Title: {this.props.book.title}
+        <div>Title: {this.props.book.title}</div>
         </div>
 
     );
@@ -18,5 +18,7 @@ class BookDetail extends Component{
 function mapStateToProps(state){
     return{
       book: state.activeBook
-    }
+    };
 }
+
+export default connect(mapStateToProps)(BookDetail);
