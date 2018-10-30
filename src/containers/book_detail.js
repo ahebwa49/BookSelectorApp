@@ -7,8 +7,11 @@ class BookDetail extends Component{
       return <div>Please select book to get started</div>
     }
     return(
-        <div>Details for:</div>
-        Title: {this.props.book.title}
+        <div>
+        <h3>Details for:</h3>
+          Title: {this.props.book.title}
+        </div>
+
     );
   }
 }
