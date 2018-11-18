@@ -1,4 +1,4 @@
-# React-redux book selector
+# Book selector app
 
 This app will let you select a book from the available list and then let you see
 more details about the selected book. Showing off my redux skills is what inspired
