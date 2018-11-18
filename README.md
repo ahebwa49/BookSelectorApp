@@ -20,8 +20,8 @@ Clone this repo, install dependencies, then start the gulp process with
 the following:
 
 ```
-> git clone https://github.com/ahebwa49/react-redux-book-selector.git
-> cd react-video-player
+> git clone https://github.com/ahebwa49/BookSelectorApp.git
+> cd BookSelectorApp
 > npm install
 > npm start
 ```
